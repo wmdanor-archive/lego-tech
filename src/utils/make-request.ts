@@ -8,8 +8,13 @@ export function makeRequest<T>(path: string, query: Record<string, string | numb
   }
 
   return fetch(url)
-    .then<T>(r => r.json())
-    .catch(err => {
-      throw err;
+    .then<T>(r => {
+      if (r.ok) {
+        return r.json();
+      }
+
+      return new Promise((_, reject) => {
+        r.json().then(reject);
+      });
     });
 }
