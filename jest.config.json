@@ -1,0 +1,14 @@
+{
+  "testEnvironment": "jsdom",
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.ts(x)"],
+  "preset": "ts-jest",
+  "transform": {
+    "^.+\\\\.(ts|tsx)?$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "\\.(css|less|scss|sss|styl)$": "<rootDir>/node_modules/jest-css-modules"
+  },
+  "modulePaths": ["<rootDir>/src/", "<rootDir>/.jest"]
+}
