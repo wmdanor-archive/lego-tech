@@ -10,3 +10,7 @@ I deleted the repository and lost the commit history.
 
 Commit history here is just an approximation of deleted commit history, I am sorry
 for this inconvenience.
+
+Fake backend was created and will be launched when `dev` script is used.
+It is done because of AccuWeather cors policy which makes it impossible to
+make requests directly from browser.
