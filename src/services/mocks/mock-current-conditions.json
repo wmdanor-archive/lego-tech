@@ -1,0 +1,25 @@
+[
+  {
+    "LocalObservationDateTime": "2022-10-06T20:08:00+01:00",
+    "EpochTime": 1665083280,
+    "WeatherText": "Clear",
+    "WeatherIcon": 33,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": false,
+    "Temperature": {
+      "Metric": {
+        "Value": 15,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 59,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/current-weather/323339?lang=en-gb",
+    "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/current-weather/323339?lang=en-gb"
+  }
+]

@@ -1,0 +1,176 @@
+{
+  "Headline": {
+    "EffectiveDate": "2022-10-07T14:00:00+01:00",
+    "EffectiveEpochDate": 1665147600,
+    "Severity": 5,
+    "Text": "Expect showers Friday afternoon",
+    "Category": "rain",
+    "EndDate": "2022-10-07T20:00:00+01:00",
+    "EndEpochDate": 1665169200,
+    "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?unit=c&lang=en-gb",
+    "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?unit=c&lang=en-gb"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2022-10-05T07:00:00+01:00",
+      "EpochDate": 1664949600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 6.5,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 18.9,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 13,
+        "IconPhrase": "Mostly cloudy w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=1&unit=c&lang=en-gb",
+      "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=1&unit=c&lang=en-gb"
+    },
+    {
+      "Date": "2022-10-06T07:00:00+01:00",
+      "EpochDate": 1665036000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 11,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 17.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 1,
+        "IconPhrase": "Sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=2&unit=c&lang=en-gb",
+      "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=2&unit=c&lang=en-gb"
+    },
+    {
+      "Date": "2022-10-07T07:00:00+01:00",
+      "EpochDate": 1665122400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 6.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 18.3,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 14,
+        "IconPhrase": "Partly sunny w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=3&unit=c&lang=en-gb",
+      "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=3&unit=c&lang=en-gb"
+    },
+    {
+      "Date": "2022-10-08T07:00:00+01:00",
+      "EpochDate": 1665208800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 6.4,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 15.4,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Mostly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=4&unit=c&lang=en-gb",
+      "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=4&unit=c&lang=en-gb"
+    },
+    {
+      "Date": "2022-10-09T07:00:00+01:00",
+      "EpochDate": 1665295200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 11.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 16.8,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 38,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=5&unit=c&lang=en-gb",
+      "Link": "http://www.accuweather.com/en/gb/whitechapel/e1-1/daily-weather-forecast/323339?day=5&unit=c&lang=en-gb"
+    }
+  ]
+}

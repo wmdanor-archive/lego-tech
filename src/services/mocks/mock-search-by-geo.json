@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "Key": "323339",
+  "Type": "City",
+  "Rank": 65,
+  "LocalizedName": "Whitechapel",
+  "EnglishName": "Whitechapel",
+  "PrimaryPostalCode": "E1 1",
+  "Region": {
+    "ID": "EUR",
+    "LocalizedName": "Europe",
+    "EnglishName": "Europe"
+  },
+  "Country": {
+    "ID": "GB",
+    "LocalizedName": "United Kingdom",
+    "EnglishName": "United Kingdom"
+  },
+  "AdministrativeArea": {
+    "ID": "TWH",
+    "LocalizedName": "Tower Hamlets",
+    "EnglishName": "Tower Hamlets",
+    "Level": 1,
+    "LocalizedType": "London Borough",
+    "EnglishType": "London Borough",
+    "CountryID": "GB"
+  },
+  "TimeZone": {
+    "Code": "BST",
+    "Name": "Europe/London",
+    "GmtOffset": 1,
+    "IsDaylightSaving": true,
+    "NextOffsetChange": "2022-10-30T01:00:00Z"
+  },
+  "GeoPosition": {
+    "Latitude": 51.513,
+    "Longitude": -0.066,
+    "Elevation": {
+      "Metric": {
+        "Value": 15,
+        "Unit": "m",
+        "UnitType": 5
+      },
+      "Imperial": {
+        "Value": 49,
+        "Unit": "ft",
+        "UnitType": 0
+      }
+    }
+  },
+  "IsAlias": false,
+  "ParentCity": {
+    "Key": "328328",
+    "LocalizedName": "London",
+    "EnglishName": "London"
+  },
+  "SupplementalAdminAreas": [
+    {
+      "Level": 0,
+      "LocalizedName": "England",
+      "EnglishName": "England"
+    },
+    {
+      "Level": 3,
+      "LocalizedName": "Whitechapel",
+      "EnglishName": "Whitechapel"
+    }
+  ],
+  "DataSets": [
+    "AirQualityCurrentConditions",
+    "AirQualityForecasts",
+    "Alerts",
+    "DailyPollenForecast",
+    "ForecastConfidence",
+    "FutureRadar",
+    "MinuteCast",
+    "Radar"
+  ]
+}
