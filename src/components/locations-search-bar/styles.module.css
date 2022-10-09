@@ -1,0 +1,17 @@
+.search-bar {}
+
+.search-bar-form-wrapper {}
+
+.search-bar-dropdown {
+  top: 100%;
+  position: absolute;
+  z-index: 5;
+}
+
+.recent-locations-item, .search-locations-item {
+  border-top: 1px solid rgba(0, 0, 0, .15);
+}
+
+.search-locations-item:first-child {
+  border-top: 0;
+}

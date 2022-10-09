@@ -1,0 +1,7 @@
+.search-locations-item {
+  border-top: 1px solid rgba(0, 0, 0, .15);
+}
+
+.search-locations-item:first-child {
+  border-top: 0;
+}
