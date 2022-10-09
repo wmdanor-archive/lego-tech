@@ -1,7 +1,10 @@
 import React, { FC } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Forecast from '../../pages/forecast';
 import Home from '../../pages/home';
 import App from '../app';
+import CurrentConditions from '../current-conditions';
+import DailyForecast from '../daily-forecast';
 
 const router = createBrowserRouter([
   {
@@ -14,15 +17,15 @@ const router = createBrowserRouter([
       },
       {
         path: 'forecast/:key',
-        element: <div></div>,
+        element: <Forecast />,
         children: [
           {
             path: '',
-            element: <div></div>
+            element: <CurrentConditions />
           },
           {
             path: 'daily',
-            element: <div></div>
+            element: <DailyForecast />
           }
         ]
       }
