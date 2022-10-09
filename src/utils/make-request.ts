@@ -7,5 +7,9 @@ export function makeRequest<T>(path: string, query: Record<string, string | numb
     url.searchParams.set(key, String(value));
   }
 
-  return fetch(url).then<T>(r => r.json());
+  return fetch(url)
+    .then<T>(r => r.json())
+    .catch(err => {
+      throw err;
+    });
 }

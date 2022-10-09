@@ -8,7 +8,7 @@ const DailyForecast: FC = () => {
   const key = useParams().key as string;
   const { data, status } = use5DaysForecast(key);
   const { observationStartDateText, observationEndDateText } = useMemo(() => {
-    if (!data) {
+    if (!data || status !== 'fetched') {
       return {
         observationStartDateText: '',
         observationEndDateText: '',
@@ -31,7 +31,7 @@ const DailyForecast: FC = () => {
       observationStartDateText,
       observationEndDateText,
     };
-  }, [data]);
+  }, [data, status]);
 
   if (status === 'error') {
     return (
@@ -43,7 +43,7 @@ const DailyForecast: FC = () => {
     );
   }
 
-  if (!data) {
+  if (!data || status !== 'fetched') {
     return (
       <div>
         <div>

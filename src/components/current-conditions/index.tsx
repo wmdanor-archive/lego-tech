@@ -9,7 +9,7 @@ const CurrentConditions: FC = () => {
   const { data, status } = useCurrentConditions(key);
 
   const observationTime = useMemo(() => {
-    if (!data) {
+    if (!data || status !== 'fetched') {
       return '';
     }
 
@@ -18,7 +18,7 @@ const CurrentConditions: FC = () => {
     return observationDateTime
       .toLocaleTimeString()
       .replace(/([\d]+:[\d]{2})(:[\d]{2})(.*)/, '$1$3');
-  }, [data]);
+  }, [data, status]);
 
   if (status === 'error') {
     return <div className='flex-grow-1 d-flex align-items-center justify-content-center'>
@@ -26,7 +26,7 @@ const CurrentConditions: FC = () => {
     </div>;
   }
 
-  if (!data) {
+  if (!data || status !== 'fetched') {
     return (
       <div className='flex-grow-1 d-flex flex-column align-items-center justify-content-center'>
         <Spinner />
