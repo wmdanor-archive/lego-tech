@@ -34,6 +34,7 @@ export const useAutocompletedLocations = (
         setData([]);
         setError(fetchError.message);
         setStatus('error');
+        console.error(fetchError);
       });
   }, [minimumQueryLength, query]);
 

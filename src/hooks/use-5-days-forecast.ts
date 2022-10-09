@@ -18,6 +18,7 @@ export const use5DaysForecast = (key: string) => {
         setData(undefined);
         setError(error.message);
         setStatus('error');
+        console.error(error);
       });
   }, [key]);
 

@@ -36,6 +36,7 @@ export const useLocation = (key: string) => {
         setData(undefined);
         setError(error.message);
         setStatus('error');
+        console.error(error);
       });
   }, [dispatch, key, recentLocations]);
 
