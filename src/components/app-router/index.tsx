@@ -1,14 +1,16 @@
 import React, { FC } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from '../../pages/home';
+import App from '../app';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div></div>,
+    element: <App />,
     children: [
       {
         path: '',
-        element: <div></div>,
+        element: <Home />,
       },
       {
         path: 'forecast/:key',
