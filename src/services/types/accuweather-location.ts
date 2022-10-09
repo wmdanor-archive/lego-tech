@@ -12,6 +12,5 @@ export interface AccuweatherLocation {
     ID: string;
     LocalizedName: string;
   };
-
   [key: string]: unknown;
 }
