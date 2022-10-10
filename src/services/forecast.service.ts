@@ -1,18 +1,15 @@
-import { makeRequest } from '../utils/make-request';
+import { delay } from './location.service';
+import fiveDaysForecastMock from './mocks/mock-search-5-by-key-details.json';
+import currentConditionsMock from './mocks/mock-current-conditions-details.json';
 import { AccuweatherCurrentConditions } from './types/accuweather-current-conditions';
 import { AccuweatherForecast } from './types/accuweather-forecast';
 
 export async function get5DaysForecastByKey(key: string): Promise<AccuweatherForecast> {
-  return makeRequest(`/forecasts/v1/daily/5day/${key}`, {
-    language: 'en-gb',
-    details: true,
-    metric: true,
-  });
+  await delay(1000);
+  return fiveDaysForecastMock;
 }
 
 export async function getCurrentConditionsByKey(key: string): Promise<AccuweatherCurrentConditions> {
-  return makeRequest(`/currentconditions/v1/${key}`, {
-    language: 'en-gb',
-    details: true,
-  });
+  await delay(1000);
+  return currentConditionsMock;
 }

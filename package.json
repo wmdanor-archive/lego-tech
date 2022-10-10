@@ -5,7 +5,7 @@
   "packageManager": "^pnpm@7.6.0",
   "scripts": {
     "start": "node src/server.cjs",
-    "dev": "concurrently \"vite serve --port 3000\" \"node ./mock-backend.cjs\"",
+    "dev": "vite serve --port 3000",
     "build": "tsc && vite build --emptyOutDir",
     "preview": "vite preview --port 3000",
     "typecheck": "tsc",
